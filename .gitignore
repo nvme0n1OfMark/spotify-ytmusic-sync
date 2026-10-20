@@ -1,0 +1,35 @@
+# Credenciales y secretos (NUNCA subir)
+config.env
+config.env.*
+!config.env.example
+.env
+.env.*
+!.env.example
+.spotify_token
+ytmusic_headers.json
+ytmusic_headers.json.bak
+*_headers.json
+*.token
+
+# Estado y datos personales
+state.json
+state.json.*
+unmatched.txt
+approximate.txt
+covers/
+cron.log
+*.log
+
+# Entorno virtual y caché de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.tmp
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Basura del sistema
+.DS_Store
+Thumbs.db
